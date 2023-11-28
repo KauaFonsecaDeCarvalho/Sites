@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+  background-image: url(https://i.ibb.co/k3Ks5p7/background-Login.png);
+}
+
+.quadro {
+  border-top: 10%;
+  max-width: 300px;
+  margin: 8%; 
+  background-color: #fff;
+  border-radius: 8px;
+  background-color: #dfd6d6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 40px; 
+  position: relative;
+  float: right;
+  align-items: left;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 20px;
+  padding-left: 30px;
+}
+
+input[type="submit"] {
+  background-color: #ffcc03;
+  color: #000000;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#iEmail, #iSenha {
+  background-image: url(https://i.ibb.co/Jq3Q8ZP/pokebola.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 5px center;
+  padding-left: 35px;
+}
+
+input.botaoAnimacao {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ffcc03;
+  color: #000000;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  display: block;
+  margin: 0 auto;
+}
+
+input.botaoAnimacao:hover {
+  transform: scale(1.2);
+}
+
+.registrar {
+  color: #38b6ff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.mensagem {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .quadro {
+      margin: 8% auto;
+      padding: 15px;
+  }
+
+  input {
+      padding: 8px;
+      width: 85%;
+  }
+
+  input[type="submit"],
+  input.botaoAnimacao {
+      font-size: 14px;
+      padding: 8px 10px;
+  }
+}

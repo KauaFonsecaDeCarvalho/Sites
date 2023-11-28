@@ -1,0 +1,118 @@
+body {
+  background-color: #ededed;
+}
+
+
+.grafico {
+  width: 400px;
+  height: 180px;
+  border: 2px solid black;
+  border-radius: 4px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  margin-left: 20%;
+
+}
+
+.barra-wrapper {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+
+.barra {
+  width: 100%;
+  transition: height 0.3s ease-in-out;
+  position: relative;
+}
+
+.barra-valor {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-weight: bold;
+}
+
+.barra-rotulo {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+font-weight: bold;
+}
+
+p.introducao{
+font-weight: bold;
+font-size: 20px;
+
+
+}
+
+h1.titulo{
+font-weight: bold;
+font-size: 35px;
+text-decoration: underline;
+
+
+}
+
+.divulgacao{
+color: red;
+font-weight: bold;
+font-size: 20px;
+text-decoration: none;
+
+
+}
+
+.textoEquadro {
+ display: flex;
+ align-items: center;
+padding: 10px;
+margin-left: 10%;
+margin-top: 5%;
+
+}
+
+
+.hrTopo {
+  background-color: red;
+  height: 35px;
+  border: none;
+}
+
+.hrMeio{
+ background-color: black;
+  height: 35px;
+  border: none;
+}
+
+
+.hrFinal {
+  background-color: white;
+  height: 35px;
+  border: none;
+}
+.quadroDois {
+  display: flex;
+  align-items: center;
+ padding: 10px;
+ margin-left: 11%;
+ margin-top: 5%;
+ 
+ }
+
+ .textoDois {
+  display: flex;
+  align-items: center;
+ padding: 10px;
+ margin-left: -1%;
+ margin-top: 5%;
+ 
+ 
+ }

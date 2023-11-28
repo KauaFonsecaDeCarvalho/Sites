@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+  background-image: url(https://i.ibb.co/x54cGvv/background-Catalogo.jpg);
+  align-items: center;
+  margin: 0; 
+}
+
+.quadro {
+  max-width: 300px;
+  width: 600px;
+  height: auto; 
+  margin: 10px auto; 
+  background-color: #dfd6d6;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: left; 
+  margin-left: 10%;
+}
+
+h1 {
+  font-size: 24px; 
+  color: #333;
+}
+
+form {
+  padding: 10px; 
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 20px;
+  padding-left: 30px;
+  box-sizing: border-box; 
+}
+
+input[type="submit"] {
+  background-color: #ffcc03;
+  color: #000000;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#iNome,
+#iSobrenome,
+#iEmail,
+#iSenha,
+#iConfirmSenha {
+  background-image: url(https://i.ibb.co/Rz2yLPj/pokebola-Botao.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 5px center;
+  padding-left: 35px;
+}
+
+input.botaoAnimacao {
+  padding: 8px 20px; 
+  font-size: 16px;
+  background-color: #ffcc03;
+  color: #000000;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  font-weight: bold;
+}
+
+input.botaoAnimacao:hover {
+  transform: scale(1.1); 
+}
+
+@media (max-width: 600px) {
+  .quadro {
+      margin: 10px auto;
+      padding: 15px; 
+  }
+
+  h1 {
+      font-size: 20px;
+  }
+
+  input.botaoAnimacao {
+      padding: 8px 15px;
+      font-weight: bold;
+  }
+}

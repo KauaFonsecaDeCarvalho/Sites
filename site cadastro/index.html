@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+    <link rel="stylesheet" href="estilo.css">
+    
+</head>
+<body>
+    <div class="quadro"> 
+        <h1> Criar conta</h1>
+        <form action="javascript:void(0)" method="get">
+            <p><label for="iNome">Nome:</label> <input type="text" name="Nome" id="iNome"> </p>
+            <p><label for="iSobrenome">Sobrenome:</label> <input type="text" name="Sobrenome" id="iSobrenome"> </p>
+            <p><label for="iEmail">Email:</label><input type="email" name="email" id="iEmail"> </p>
+            <p><label for="iSenha">Senha:</label><input type="password" name="Senha" id="iSenha"> </p>
+            <p><label for="iConfirmSenha">Confirmar senha:</label><input type="password" name="ConfirmarSenha" id="iConfirmSenha"> </p>
+            <p><input class="botaoAnimacao" type="button" value="Registrar" onclick="registrar();"></p>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
