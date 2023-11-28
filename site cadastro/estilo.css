@@ -1,10 +1,14 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: #f0f0f0;
   padding: 20px;
   background-image: url(https://i.ibb.co/x54cGvv/background-Catalogo.jpg);
   align-items: center;
   margin: 0; 
+}
+
+p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .quadro {
